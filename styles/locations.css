@@ -1,13 +1,78 @@
-.locationList {
-    background-color: mediumaquamarine;
+.locationsHeader {
+    font-family: sans-serif;
 }
+
+.locationList {
+    background-color: slategrey;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}  
 
 .location {
-    background-color: mediumseagreen;
+    background-color: transparent;
+    width: 250px;
+    height: 250px;
+    border: none;
+    perspective: 1000px;
+    padding: 20px;
 }
 
+.location__flipCard {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
 
-.location__picture {
-    max-width: 15rem;
-    max-height: 15rem;
+.location__flipCardFront > img {
+    height: 250px;
+    width: auto;
+}
+
+.location:hover .location__flipCard {
+    transform: rotateY(180deg);
+}
+  
+.location__flipCardFront, .location__flipCardBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.location__flipCardFront {
+    background-color: #bbb;
+    color: black;
+}
+
+.location__flipCardBack {
+    background-color: Navy;
+    font-family: sans-serif;
+    color: white;
+    transform: rotateY(180deg);
+    padding: 0 5px 10px 5px;
+}
+
+.location__flipCardBack > dl {
+    text-align: center;
+    flex-direction: column;
+}
+
+.location__flipCardBack > dl > dt {
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+.card__back { 
+    width: 100%;
+    margin: 0px 5px;
+    margin-bottom: 5px;
+    text-align: center;
 }

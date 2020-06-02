@@ -1,8 +1,60 @@
 .tipList {
-    background-color: dodgerblue;
+    background-color: #607d8b;
     height: 100%;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 12px;
+}
+
+.tipList__intro {
+    color: #eceff1;
+    font-family: sans-serif;
+    font-size: 18px;
+    border-top: #eceff1 solid 1px;
+    border-bottom: #eceff1 solid 1px;
+    text-align: center;
+}
+
+.tipKorner {
+    text-align: center;
+}
+
+.tipKorner__logo {
+    height: auto;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.tipContainer {
+    background-color: #455a64;
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    height: 200px;
+    position: relative;
+    border-radius: 12px;
 }
 
 .tip {
-    background-color: royalblue;
+    text-align: center;
+    color: #eceff1;
+    margin: 5px 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.tip__count {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #cfd8dc;
+    font-size: 26px;
+}
+
+.tip > p {
+    font-size: 18px;
 }
