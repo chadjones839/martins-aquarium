@@ -1,0 +1,4 @@
+fishListGenerator(fishCollection)
+locationListGenerator(locationCollection)
+quoteListGenerator(quoteCollection)
+tipListGenerator(tipCollection)
