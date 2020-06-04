@@ -1,14 +1,14 @@
 quoteCollection = [
     {
-        quote: "Only dead fish go with the flow.",
-        author: "-Unknown"
+        quote: "Weekends don't count unless you spend them doing something completely pointless.",
+        author: "-Bill Watterson"
     },
     {
-        quote: "Fish is the only food that is considered spoiled once it smells like what it is.",
-        author: "-P.J. O'Rourke"
+        quote: "Have you ever noticed that anybody driving slower than you is an idiot, and anyone going faster than you is a maniac?",
+        author: "-George Carlin"
     },
     {
-        quote: "No good fish goes anywhere without a porpoise.",
-        author: "-Lewis Carroll"
+        quote: "It's good to dress up like a hot dog and through a bull horn scream 'the first weiner is free'.",
+        author: "-Gary Busey"
     },
 ]

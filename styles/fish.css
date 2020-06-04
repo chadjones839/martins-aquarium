@@ -1,20 +1,62 @@
 .myFish {
-    font-family: sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3em;
+    margin: 3px;
+}
+
+.myFish__description {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    width: 80%;
+    text-align: center;
+}
+
+.myFish__description > p:first-child {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: ;
+}
+
+.badgeLegend {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px 0;
+    border: black 1px solid;
+}
+
+.badge {
+    width: 30%;
+}
+
+.badge > img {
+    height: 50px;
+    width: auto;
+    float: left;
+    padding: 10px;
+}
+
+.badge > p {
+    float: left;
+    margin-left: 10px;
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 1.5em;
 }
 
 .fishList {
-    background-color: lightgrey;
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 80%;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .fish {
     position: relative;
     width: 30%;
-    margin: 20px;
+    margin: 5px;
 }
   
 
@@ -37,7 +79,7 @@
     opacity:0;
     color: white;
     font-size: 20px;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -46,7 +88,7 @@
 }
 
 .name {
-    font-family: sans-serif;
+    font-family: 'Permanent Marker', cursive;
     text-align: left;
     margin-top: 2px;
     margin-bottom: 20px;
@@ -63,6 +105,8 @@ dt {
     text-align: left;
     margin-bottom: 5px;
     font-weight: bold;
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 1em;
 }
 
 dd {
@@ -71,4 +115,16 @@ dd {
     text-align: right;
     margin-left: 0px;
     margin-bottom: 5px;
+    font-family: 'Patrick Hand SC', cursive;
 }
+
+.icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: auto;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+

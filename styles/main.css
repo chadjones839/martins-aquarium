@@ -25,3 +25,16 @@
 .underTheBanner__right {
     flex: 1;
 }
+
+footer {
+    background-color: #455a64;
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+}
+
+footer > a:link, a:visited {
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+}

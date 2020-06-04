@@ -1,5 +1,5 @@
 .quoteList {
-    background-color: #37474f;
+    /* background-color: #37474f; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -9,7 +9,7 @@
     border-radius: 12px;
 }
 
-.quote {
+/* .quote {
     background-color: #90a4ae;
     width: 25%;
     padding: 10px 20px;
@@ -29,4 +29,61 @@
     right: 20px;
     top: 90px;
     font-size: 18px;
+} */
+
+/* .quote {
+    display:inline-block;
+    margin:1em;
+    overflow:hidden;
+    border: 1px black solid;
+    width: 30%;
 }
+
+blockquote {
+    border: solid 2px #757575;
+    display: inline-block;
+    margin: 0;
+    padding: 1em;
+    position: relative;
+    width: 100%;
+}
+      
+blockquote > cite {
+    display: block;
+    font-style: italic;
+    text-align: right;
+} */
+
+blockquote{
+    display:block;
+    background: #fff;
+    padding: 15px 20px 5px 45px;
+    margin: 0 0 ;
+    position: relative;
+    width: 25%; 
+    font-size: 11px;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.2;
+    color: #666;
+    border-left: #656d77 solid 15px;
+ 
+  }
+  
+  blockquote::before{
+    content: "\201C";
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #999;
+    position: absolute;
+    left: 10px;
+    top:5px;  
+  }
+
+  .blockQuote > p {
+      text-align: right;
+      justify-content: flex-end;
+      font-size: 26px;
+      font-family: 'Patrick Hand SC', cursive;
+      padding-bottom: 0px;
+  }
