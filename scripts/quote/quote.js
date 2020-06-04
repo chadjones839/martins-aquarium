@@ -1,7 +1,9 @@
 function quoteConverter(quoteObject) {
-    const quoteHTMLRepresentation = `<section class="quote">${quoteObject.quote}
-    <div class="author">${quoteObject.author}</div>
-</section>`
+    const quoteHTMLRepresentation = `<blockquote class="blockQuote">
+    <h1><span class="quote">${quoteObject.quote}</span></h1>  
+  <p>${quoteObject.author}</p>
+  </blockquote>`
 
 return quoteHTMLRepresentation
 }
+
