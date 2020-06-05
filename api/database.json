@@ -1,0 +1,162 @@
+{
+    "fish": [
+    {
+        "picture": "https://www.nationalgeographic.com/content/dam/animals/thumbs/rights-exempt/fish/group/parrotfish_thumb.jpg",
+        "name": "Angus",
+        "species": "Parrotfish",
+        "length": 3,
+        "location": "Atlantic Ocean",
+        "diet": "popcorn"
+    },
+    {
+        "picture": "https://3.bp.blogspot.com/-iJdQmfokBho/VWKVI1Fau0I/AAAAAAAAAKg/3jVyE0dsQuI/s1600/fish.jpeg",
+        "name": "Mr. Shnoz Face",
+        "species": "Blobfish",
+        "length": 12,
+        "location": "Australian Coast",
+        "diet": "Hoagies"
+    },
+    {
+        "picture": "https://www.backpacker.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTQ5ODA1NzEzNzI2NjQ1NDI3/atlantic-sturgeon.jpg",
+        "name": "Colonel Caviar",
+        "species": "Sturgeon",
+        "length": 283,
+        "location": "Lousiana Bayou",
+        "diet": "Rats"
+    },
+    {
+        "picture": "https://i.imgur.com/ZYuLpWb.jpg",
+        "name": "Old Gregg",
+        "species": "Scaly Man-Fish",
+        "length": 70,
+        "location": "Black Lake",
+        "diet": "Baileys from a Shoe"
+    },
+    {
+        "picture": "https://mediaproxy.salon.com/width/1200/height/1200/https://media.salon.com/2018/06/800px-Channel_Catfish.jpg",
+        "name": "Ol' Whiskers O'Grady",
+        "species": "Catfish",
+        "length": 65,
+        "location": "Lake Texoma",
+        "diet": "Redneck Arms"
+    },
+    {
+        "picture": "https://external-preview.redd.it/EsFR7A4i4ndGIVrbBf_GvAcRLn7gjDNblvEeHoSWJK8.jpg?auto=webp&s=6cdab5121b8853a47d52a321d0bd6d0401d32ab7",
+        "name": "Calvin",
+        "species": "Remora",
+        "length": 32,
+        "location": "Atlantic Ocean",
+        "diet": "Shark Scraps"
+    },
+    {
+        "picture": "https://live.staticflickr.com/2626/3967590146_b0af7b4f34_b.jpg",
+        "name": "Lil' Goober",
+        "species": "Guppy",
+        "length": 2,
+        "location": "PetsMart",
+        "diet": "Cornflakes"
+    },
+    {
+        "picture": "https://i2-prod.mirror.co.uk/incoming/article5017650.ece/ALTERNATES/s1200c/The-anglerfish.jpg",
+        "name": "Mr. Teeth Face",
+        "species": "Angler Fish",
+        "length": 18,
+        "location": "Atlantic Abyssal Zone",
+        "diet": "Fingers"
+    },
+    {
+        "picture": "https://ourmarinespecies.com/wp-content/uploads/2019/07/tilapia_1.jpg",
+        "name": "Terry The Tilapia",
+        "species": "Tilapia",
+        "length": 8,
+        "location": "Nile River",
+        "diet": "Seaweed, probably"
+    }
+],
+    "locations": [
+        {
+            "location": "Caribbean Sea",
+            "picture": "https://stophavingaboringlife.com/wp-content/uploads/2013/02/view_casa_iguana.jpg",
+            "area": "1.063 million mi²",
+            "meanDepth": "2,200 meters",
+            "fishTypes": "Puffers, Bass, Hogfish, Jawfish, Basslets..."
+        },
+        {
+            "location": "Mediterranean Sea",
+            "picture": "https://i.pinimg.com/474x/a6/63/60/a66360825abe6dc1826a4a18ce6714eb.jpg",
+            "area": "965,300 mi²",
+            "meanDepth": "1,499 meters",
+            "fishTypes": "Parrotfish, Swallowtail seaperch, Anthias anthias, Cardinal Fish..."
+        },
+        {
+            "location": "Sea of Japan",
+            "picture": "https://cdn.i-scmp.com/sites/default/files/styles/768x768/public/d8/images/methode/2020/02/26/34757544-5880-11ea-b438-8452af50d521_image_hires_203236.JPG?itok=mlfmmIA9&v=1582720362",
+            "area": "377,608 mi²",
+            "meanDepth": "1,752 meters",
+            "fishTypes": "Saury, Mackerel, Jack Mackerels, Sardines, Anchovies..."
+        },
+        {
+            "location": "Caspian Sea",
+            "picture": "https://media-cdn.tripadvisor.com/media/photo-s/11/90/72/ad/caspian-sea.jpg",
+            "area": "143,244 mi²",
+            "meanDepth": "1,025 meters",
+            "fishTypes": "Caspian kutum, Wels Catfish, Squalius Cephalus, Sterlet..."
+        }
+    ],
+    "tips": [
+        {
+            "tipNum": "TIP 1",
+            "tip": "Do not add boiling water to your aquarium. There will likely be a negative result"
+        },
+        {
+            "tipNum": "TIP 2",
+            "tip": "Win internet arguments by editing your comments after your opponent has responded to completely change what you said and making it look like your opponent has no idea what they're talking about."
+        },
+        {
+            "tipNum": "TIP 3",
+            "tip": "Find and befriend your co-workers that don't drink, because if there's ever a work function with drink tickets, you can try to get theirs."
+        },
+        {
+            "tipNum": "TIP 4",
+            "tip": "Order from postmates around 4am. There won't be any drivers to deliver your food, and Postmates will credit you $5 for the inconvenience. Do this as many times as you want."
+        },
+        {
+            "tipNum": "TIP 5",
+            "tip": "Save business cards of people you don't like. If you ever hit a parked car accidentally, just write 'sorry' on the back and leave it on the windshield."
+        },
+        {
+            "tipNum": "TIP 6",
+            "tip": "If you ever get caught sleeping at your desk at work then say 'They told me at the Blood Bank that this would happen' when asked for a reason."
+        },
+        {
+            "tipNum": "TIP 7",
+            "tip": "If a computer illiterate relative/friend asks you to fix their slow computer, boost their cursor speed by a notch or two. They’ll instantly notice a difference and thank you!"
+        },
+        {
+            "tipNum": "TIP 8",
+            "tip": "Everytime you eat at a restaurant, vote it “unfriendly for kids” on Google Reviews, so you are less likely to have to deal with annoying little kids should you eat there again."
+        },
+        {
+            "tipNum": "TIP 9",
+            "tip": "Want to cut into another lane of traffic but nobody will let you in? Cut in front of a Tesla, autopilot will force the car to stop."
+        },
+        {
+            "tipNum": "TIP 10",
+            "tip": "Don't want to spend a small fortune on a wedding ring? Buy an old wedding ring at a pawn shop and say that it was your grandmothers ring. This will give it more sentiment and value than a new ring."
+        }
+    ],
+    "quotes": [
+        {
+            "quote": "Weekends don't count unless you spend them doing something completely pointless.",
+            "author": "-Bill Watterson"
+        },
+        {
+            "quote": "Have you ever noticed that anybody driving slower than you is an idiot, and anyone going faster than you is a maniac?",
+            "author": "-George Carlin"
+        },
+        {
+            "quote": "It's good to dress up like a hot dog and through a bull horn scream 'the first weiner is free'.",
+            "author": "-Gary Busey"
+        }
+    ]
+}
