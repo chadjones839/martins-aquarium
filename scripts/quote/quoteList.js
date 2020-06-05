@@ -1,7 +1,14 @@
-const quoteListGenerator = (quoteCollection) => {
-    for(const currentQuote of quoteCollection) {
-        const quoteHTML = quoteConverter(currentQuote)
-        const quoteListHTMLElement = document.querySelector(".quoteList")
-        quoteListHTMLElement.innerHTML += quoteHTML
+const quoteList = () => {
+    const quotes = quoteData()
+    displayQuotes(quotes)
+}
+
+
+
+const displayQuotes = (theDataToDisplay) => {
+    for(const quoteObject of theDataToDisplay) {
+        const quoteHTMLRepresentation = quoteConverter(quoteObject)
+        const quoteArticleElement = document.querySelector(".quoteList")
+        quoteArticleElement.innerHTML += quoteHTMLRepresentation
     }
 }
